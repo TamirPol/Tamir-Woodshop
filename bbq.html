@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBQ Scraper</title>
+    #menu{
+    background-color: black;
+    padding: 12px;
+    width: 57%;
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: #ddd;
+    background-color: #222;
+    padding: 12px;
+    font-size: x-large;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 45px;
+    margin-right: 45px;
+    text-align: right;
+    transition: color, filter 0.4s;
+}
+h1{
+    font-size: 60px;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    background-color: rgb(129, 129, 129);
+}
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: larger;
+    color: rgb(192, 192, 192);
+    position: absolute;
+    top: 250px;
+    left: 210px;
+}
+p{
+    width: 35%;
+    position: absolute;
+    top: 350px;
+    left: 400px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#bbqP1{
+    cursor: pointer;
+    width: calc(100% / 3);
+    height: calc(100% / 3);
+    z-index: -1;
+    margin-left: 700px;
+    margin-top: 50px;
+    transition: filter 1s;
+}
+#bbqP1:hover{
+    filter: brightness(130%) contrast(110%);
+}
+a:hover{
+    color: white;
+    filter: brightness(160%);
+}
+span{
+    padding-left: 30px;
+}
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="menu">
+        <a href="https://github.com/TamirPol/Tamir-Woodshop/blob/master/index.html">Home</a>
+        <a href="file:///C:/Users/Tamir/Desktop/ITGEN_Projects/Javascript/Javascript%20Projects/School/tools.html">Tools</a>
+        <a href="#">Steps</a>
+        <a href="#">Final Design</a>
+    </div>
+    <h1>BBQ Scraper</h1>
+    <h2>My First Woodworking Project</h2>
+    <p><span>There</span> has been some discussion over the past few years about the dangers of using metal-bristled brushes to clean barbeque grills as there has been incidents of metal wires falling into food.
+        Because of this people have began to lean towards wood scrapers to clean their grills.
+        This project is an example of a 2 by 6 inch wooden bbq scraper.
+    </p>
+    <img src="https://github.com/TamirPol/Tamir-Woodshop/blob/master/BBQ%20Scraper.png" id="bbqP1">
+</body>
+</html>
