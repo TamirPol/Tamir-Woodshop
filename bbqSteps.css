@@ -66,7 +66,7 @@ img{
     height: 186px;
 }
 #drawing{
-    width: 400px;
-    height: 186px;
+    width: 186px;
+    height: 400px;
     transform: rotate(90deg)
 }
