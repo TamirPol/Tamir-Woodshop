@@ -36,6 +36,7 @@ body{
     transition: filter 0.5s;
     cursor: pointer;
     padding: 20px;
+    margin-top: -140px;
 }
 #BandSaw{
     width:45%;
@@ -84,7 +85,7 @@ h2{
     cursor: pointer;
     transition: filter 0.5s;
     margin-right: 80px;
-    margin-bottom: 300px;
+    margin-top: -1300px;
 }
 #disc_Sander_Picture:hover{
     filter: brightness(150%);
@@ -96,10 +97,11 @@ h2{
     font-size: large;
     padding: 20px;
     color: white;
-    bottom: -798px
+    bottom: -718px
 }
 #disc_Sander{
     margin-left: 20px;
+    margin-top: -140px;
 }
 #drill_Press_Picture{
     width: 40%;
@@ -107,7 +109,7 @@ h2{
     cursor: pointer;
 }
 #drill_Press{
-    padding-top: 150px;
+    padding-top: 190px;
 }
 #drill_Press_Picture:hover{
     filter: brightness(150%)
@@ -120,10 +122,10 @@ h2{
 }
 #silverV{
     border-left: 6px solid silver;
-    height: 1765px;
+    height: 1665px;
     position: absolute;
     left: 665px;
-    top: 635px;
+    top: 705px;
 }
 hr{
     border-top: 6px solid silver;
@@ -141,7 +143,7 @@ ul{
 }
 #general{
     padding: 20px;
-    padding-left: 400px;
+    padding-left: 470px;
     
 }
 .names{
@@ -162,8 +164,8 @@ ul{
     background-color: #111;
     text-align: center;
     height: 60px;
-    bottom: -400px;
-    opacity: 0.8;
+    bottom: -260px;
+    opacity: 0.9;
     margin-left: 7.5px;
     font-family: sans-serif;
     filter: brightness(150%)
@@ -171,4 +173,24 @@ ul{
 #popupDrillPress{
     position: absolute;
     bottom: -1300px;
+}
+#oscillating_Spindle_Sanders_Picture{
+    width: 93%;
+    margin-top: 140px;
+    cursor: pointer;
+    transition: filter 0.5s;
+
+}
+#oscillating_Spindle_Sanders_Picture:hover{
+    filter: brightness(150%);
+}
+#popupOscillatingSpindleSander{
+    bottom: -1300px;
+    margin-left: 50px;
+}
+#OSS{
+    width:85%;
+    color: white;
+    padding: 20px;
+    font-size: large;
 }
