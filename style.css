@@ -29,7 +29,7 @@ h1{
     height: 180px;
     transition: 1s;
 }
-p{
+#bbq{
     font-size: x-large;
     color: white;
     position: absolute;
@@ -55,6 +55,17 @@ h3:nth-child(1){
 h3:nth-child(2){
     margin-left: 100px;
 }
-p:hover{
+#bbq:hover{
     cursor: pointer;
+}
+#explanation{
+    color: #4ad6f4;
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    font-size: large;
+
+}
+span{
+    padding-left: 30px;
 }
