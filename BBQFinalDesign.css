@@ -1,26 +1,107 @@
 #menu{
     background-color: black;
-    padding: 12px;
-    width: 64%;
+    padding: 0.885vw;
+    width: 65vw;
     float: right;
-    position: absolute;
-    top: 0;
-    right: 0;
 }
 .menu{
 
     text-decoration: none;
     color: #ddd;
     background-color: #222;
-    padding: 12px;
-    font-size: x-large;
+    padding: 0.885vw;
+    font-size: 1.77vw;
     font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: 3.3175vw;
+    margin-right: 3.3175vw;
     text-align: right;
     transition: color, filter 0.4s;
 }
 .menu:hover{
     color: white;
     filter: brightness(160%);
+}
+h1{
+    position: absolute;
+    top: 10.77vw;
+    left: 10.77vw;
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    position: absolute;
+    top: 18vw;
+    padding: 2vw;
+    font-size: 1.4vw;
+    color: navy;
+    font-family: 'Roboto', sans-serif;
+}
+span{
+    padding-left: 2vw;
+}
+img{
+    width: 32vw;
+    height: 24vw;
+    position: absolute;
+    transition: filter 0.5s;
+    border: solid 2px;
+}
+#flip{
+    transform: rotate(-90deg);
+    width: 24vw;
+    height: 32vw;
+    top: 36vw;
+    left: 5vw
+}
+#two{
+    top: 40vw;
+    left: 33.75vw
+}
+#three{
+    top: 40vw;
+    left: 66.6vw
+}
+#four{
+    top: 67vw;
+    left: 0.97vw
+}
+#five{
+    top: 67vw;
+    left: 33.75vw
+}
+#six{
+    top: 67vw;
+    left: 66.6vw
+}
+#seven{
+    left: 0.97vw;
+    top: 94vw;
+}
+#eight{
+    top: 94vw;
+    left: 33.75vw
+}
+#nine{
+    top: 94vw;
+    left: 66.6vw
+}
+#ten{
+    left: 0.97vw;
+    top: 121vw
+}
+#eleven{
+    left: 66.6vw;
+    top: 121vw
+}
+#top{
+    background-color: silver;
+    height: 35vw;
+    width: 100%
+}
+body{
+    background-color: #dbd3c4;
+}
+img:hover{
+    filter: brightness(130%);
+    border: 2px solid #222
 }
