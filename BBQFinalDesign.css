@@ -1,0 +1,26 @@
+#menu{
+    background-color: black;
+    padding: 12px;
+    width: 64%;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.menu{
+
+    text-decoration: none;
+    color: #ddd;
+    background-color: #222;
+    padding: 12px;
+    font-size: x-large;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 45px;
+    margin-right: 45px;
+    text-align: right;
+    transition: color, filter 0.4s;
+}
+.menu:hover{
+    color: white;
+    filter: brightness(160%);
+}
