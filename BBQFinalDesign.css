@@ -44,7 +44,7 @@ img{
     height: 24vw;
     position: absolute;
     transition: filter 0.5s;
-    border: solid 2px;
+    border: solid 0.1475vw;
 }
 #flip{
     transform: rotate(-90deg);
@@ -103,5 +103,17 @@ body{
 }
 img:hover{
     filter: brightness(130%);
-    border: 2px solid #222
+    border: 0.1475vw solid #222
+}
+#biggerDevice{
+    display: none;
+}
+@media only screen and (max-width: 637px){
+    #aaa{
+        display: none;
+    }
+    #biggerDevice{
+        display: block;
+        color: black;
+    }
 }

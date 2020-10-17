@@ -69,3 +69,37 @@ h3:nth-child(2){
 span{
     padding-left: 30px;
 }
+#biggerDevice{
+    display: none;
+}
+#jointsImage{
+    width: 355px;
+    height: 179px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+#joints{
+    font-size: x-large;
+    color: white;
+    position: absolute;
+    width: 355px;
+    background-color: black;
+    text-align: center;
+    height: 60px;
+    bottom: -18px;
+    opacity: 0.8;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+@media only screen and (max-width: 637px){
+    #aaa{
+        display: none;
+    }
+    #biggerDevice{
+        display: block;
+        color: black;
+    }
+}

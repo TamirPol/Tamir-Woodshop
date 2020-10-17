@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+
+img{
+    width: 16em;
+    height: 16em;
+    display: block;
+}
+p{
+    font-size: 1.3em;
+    width: 47%;
+    height: 30em;
+    border: navy 0.2em solid;
+    padding-top: 5%;
+    padding-left: 0.4em;
+    padding-right: 0.35em;
+    background-color: white;
+    color: navy;
+    font-family: 'Lora';
+}
+p:nth-child(even){
+    float: left;
+}
+p:nth-child(odd){
+    float: right;
+}
+h1{
+    font-size: 3.5em;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 2.5em;
+    left: 42%;
+}
+body{
+    background-color: silver;
+}
+#first{
+    color: rgb(2, 122, 122);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15em 3em 1em 3em;
+    font-size: 1.25em;
+}
+#menu{
+    background-color: black;
+    padding: 0.885vw;
+    width: 80vw;
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: #ddd;
+    background-color: #222;
+    padding: 0.885vw;
+    font-size: 1.77vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 3.31875vw;
+    margin-right: 3.31875vw;
+    text-align: right;
+    transition: color, filter 0.4s;
+}
+#biggerDevice{
+    display: none;
+}
+a:hover{
+    color: white;
+    filter: brightness(160%);
+}
+@media only screen and (max-width: 637px){
+    #aaa{
+        display: none;
+    }
+    #biggerDevice{
+        display: block;
+        color: black;
+    }
+}

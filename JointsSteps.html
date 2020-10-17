@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steps</title>
+    <link rel="stylesheet" href="JointsSteps.css">
+</head>
+<body>
+    <h1 id="biggerDevice">Please Use A Bigger Device</h1>
+    <div id="aaa">
+    <div id="menu" class="smallPic">
+        <a class="menu" href="index.html">Home</a>
+        <a class="menu" href="joineries.html">Joints</a>
+        <a class="menu" href="#">Tools/Safety</a>
+        <a class="menu" href="#">Final Design</a>
+        <a class="menu" href="research.html">Research</a>
+    </div>
+    <h1 class="smallPic">Joineries</h1>
+    <h2  class="smallPic">Steps</h2>
+    <p id="opening"  class="smallPic">There are multiple steps that I took to create the Joineries, which include both planning and execution steps.</p>
+    <ol>
+        <li class="smallPic">Research</li>
+        <span class="smallPic">Just like with the barbeque scraper, the first step is research. In this project what I researched was different types of joints and I familiarized myself with them.
+            I have learned about the Miter Joint, Half Lap Joint, Dovetail Joint, Butt Joint, Pocket Screw, Mortise and Tenon, Tongue and Groove, Dowel Joint, Dado, Biscuit, and Rabbet.
+            I have seached up their uses, their names, how they look, and their definitions. To learn about them as well, go to the research page.
+        </span>
+        <li class="smallPic">Sketchup</li>
+        <p class="smallPic" id="p"><span></span>Now it is time to do sketchup.
+            SketchUp is a 3D modeling computer program for a wide range of drawing applications such as architectural, interior design, and landscape architecture, but can also be used for many more applications.    This is how my design looks on SketchUp.<span class="small"><a href="https://edu.sketchup.com/app/">(SketchUp site) </a>
+        </span>
+        <p class="smallPic" id="small">
+            <img id="image" src="PictureJoints (1).png" width="600px" height="450px">
+               <button class="button" id="previous" onclick="previousPicture(); showPicture();">&#60;</button>
+               <button class="button" id="next" onclick="nextPicture(); showPicture()">&#62;</button>
+               <img src="full.png" id="full" onclick="change()">
+           </p>
+           <p id="big"><img id="imageBig" src="PictureJoints (1).png">
+               <button class="buttonBig" id="previousBig" onclick="previousPicture(); showPicture();">&#60;</button>
+               <button class="buttonBig" id="nextBig" onclick="nextPicture(); showPicture()">&#62;</button>
+               <img src="full.png" id="fullBig" onclick="change()">
+           </p>
+    </ol>
+
+    </div>
+    <script>
+        var smallPic = document.querySelectorAll(".smallPic")
+        let big = true;
+        document.getElementById("big").classList.add("hide")
+        console.log(smallPic)
+    function change(){
+        if (!big){
+            big = true;
+            document.getElementById("big").classList.add("hide")
+            document.getElementById("small").classList.remove("hide")
+            smallPic.forEach(smalls => {
+                smalls.classList.remove("hide")
+            })
+        } else {
+            big = false;
+            document.getElementById("big").classList.remove("hide")
+            document.getElementById("small").classList.add("hide")
+            smallPic.forEach(smalls => {
+                smalls.classList.add("hide")
+            })
+        }
+    }
+    let i = 1;{
+
+    }
+        function previousPicture(){
+            i--
+            if (i < 1){
+                i = 12
+            }
+        }
+        function showPicture(){
+            document.getElementById("imageBig").style.opacity = 0.5;                
+                    setTimeout(() => {
+                        document.getElementById("imageBig").style.opacity = 0.6;
+                    }, 150);                    
+                    setTimeout(() => {
+                        document.getElementById("imageBig").style.opacity = 0.7;
+                    }, 150);                    
+                    setTimeout(() => {
+                        document.getElementById("imageBig").style.opacity = 0.8;
+                    }, 150);                    
+                    setTimeout(() => {
+                        document.getElementById("imageBig").style.opacity = 1;
+                    }, 150);
+                    document.getElementById("imageBig").src = "PictureJoints (" + i + ").png";
+
+                    document.getElementById("image").style.opacity = 0.5;                
+                    setTimeout(() => {
+                        document.getElementById("image").style.opacity = 0.6;
+                    }, 150);                    
+                    setTimeout(() => {
+                        document.getElementById("image").style.opacity = 0.7;
+                    }, 150);                    
+                    setTimeout(() => {
+                        document.getElementById("image").style.opacity = 0.8;
+                    }, 150);                    
+                    setTimeout(() => {
+                        document.getElementById("image").style.opacity = 1;
+                    }, 150);
+                    document.getElementById("image").src = "PictureJoints (" + i + ").png";
+        }
+        function nextPicture(){
+            i++;
+            if (i > 12){
+                i = 1
+            }
+        }
+    </script>
+</body>
+</html>

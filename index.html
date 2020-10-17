@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 </head>
 <body>
+    <h1 id="biggerDevice">Please Use A Bigger Device</h1>
+    <div id="aaa">
     <h1>Tamir's WoodShop</h1>
     <p id="explanation"><span></span>My name is Tamir Polyakov, I am in grade 9<br> 
         and I take Mr.Doherty fun tech class This website showcases all my<br>  
@@ -25,11 +27,15 @@
             <img src="BBQ Scraper.png" id="scraper">
             <p id="bbq">BBQ Scraper</p>
         </div>
-        <div id="image2" class="images"></div>
+        <div id="image2" class="images">
+            <img id="jointsImage" src="PictureJoints (1).png">
+            <p id="joints">Joineries</p>
+        </div>
     </div>
     <div id="container2">
         <div id="image3" class="images"></div>
         <div id="image4" class="images"></div>
+    </div>
     </div>
     <script>
                 $(function(){
@@ -44,6 +50,19 @@
         })
         $("#image1").click(function() {
             window.location = "bbq.html"
+        })
+
+        $("#joints").hide()
+            $("#image2").mouseenter(function() {
+                $("#jointsImage").css({"filter": "brightness(140%)"})
+                $("#joints").slideToggle(300)
+        })
+            $("#image2").mouseleave(function() {
+                $("#jointsImage").css({"filter": "brightness(100%)"})
+                $("#joints").slideToggle(300)
+        })
+        $("#image2").click(function() {
+            window.location = "joineries.html"
         })
         })
     </script>  

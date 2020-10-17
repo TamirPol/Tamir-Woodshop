@@ -1,3 +1,6 @@
+p{
+    font-size: 1.18vw;
+}
 body{
     background-color: rgb(129, 129, 129);
 }
@@ -5,7 +8,7 @@ body{
 
 #menu{
     background-color: black;
-    padding: 12px;
+    padding: 0.885vw;
     width: 66%;
     float: right;
     position: absolute;
@@ -17,11 +20,11 @@ body{
     text-decoration: none;
     color: #ddd;
     background-color: #222;
-    padding: 12px;
-    font-size: x-large;
+    padding: 0.885vw;
+    font-size: 1.77vw;
     font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: 3.31875vw;
+    margin-right: 3.31875vw;
     text-align: right;
     transition: color, filter 0.4s;
 }
@@ -34,20 +37,20 @@ body{
     height: 20%;
     transition: filter 0.5s;
     cursor: pointer;
-    padding: 20px;
-    margin-top: -140px;
+    padding: 1.475vw;
+    margin-top: -10.325vw;
 }
 #BandSaw{
     width:45%;
     color: white;
-    padding: 20px;
-    font-size: large;
+    padding: 1.475vw;
+    font-size: 1.3275vw;
 }
 span{
     padding-left: 4.5%;
 }
 #tools{
-    margin-top: 400px;
+    margin-top: 29.5vw;
     background-color: #222;
 }
 #a{
@@ -57,34 +60,34 @@ span{
     filter: brightness(150%)
 }
 h1{
-    font-size: 60px;
+    font-size: 4.425vw;
     color: white;
     font-family: 'Playfair Display', serif;
     position: absolute;
-    top: 70px;
-    left: 70px;
+    top: 5.1625vw;
+    left: 5.1625vw;
 }
 h2{
     font-family: 'Merriweather', serif;
-    font-size: larger;
+    font-size: 1.475vw;
     color: rgb(192, 192, 192);
     position: absolute;
-    top: 190px;
-    left: 200px;
+    top: 14.0125vw;
+    left: 14.75vw;
 }
 #list{
     position: absolute;
-    top: 290px;
-    left: 200px;
+    top: 21.3875vw;
+    left: 14.75vw;
     color: whitesmoke;
-    font-size: larger;
+    font-size: 1.475vw;
     font-family: "David Libre";
 }
 #disc_Sander_Picture{
     cursor: pointer;
     transition: filter 0.5s;
-    margin-right: 80px;
-    margin-top: -1300px;
+    margin-right: 5.9vw;
+    margin-top: -95.875vw;
 }
 #disc_Sander_Picture:hover{
     filter: brightness(150%);
@@ -92,15 +95,15 @@ h2{
 #DiscSander{
     position: absolute;
     width: 30%;
-    right: 40px;
-    font-size: large;
-    padding: 20px;
+    right: 2.95vw;
+    font-size: 1.3275vw;
+    padding: 1.475vw;
     color: white;
-    bottom: -718px
+    bottom: -52.9525vw;
 }
 #disc_Sander{
-    margin-left: 20px;
-    margin-top: -140px;
+    margin-left: 1.475vw;
+    margin-top: -10.325vw;
 }
 #drill_Press_Picture{
     width: 40%;
@@ -108,7 +111,7 @@ h2{
     cursor: pointer;
 }
 #drill_Press{
-    padding-top: 190px;
+    padding-top: 14.0125vw;
 }
 #drill_Press_Picture:hover{
     filter: brightness(150%)
@@ -116,20 +119,20 @@ h2{
 #DrillPress{
     width:45%;
     color: white;
-    padding: 20px;
-    font-size: large;
+    padding: 1.475vw;
+    font-size: 1.3275vw;
 }
 #silverV{
-    border-left: 6px solid silver;
-    height: 3777px;
+    border-left: 0.4425vw solid silver;
+    height: 276.8vw;
     position: absolute;
-    left: 665px;
-    top: 705px;
+    left: 49.04375vw;
+    top: 51.99375vw;
 }
 #hr1{
-    border-top: 6px solid silver;
+    border-top: 0.4425vw solid silver;
     position: absolute;
-    top: 1500px;
+    top: 110.625vw;
     width: 98.69%
 }
 ul{
@@ -138,44 +141,44 @@ ul{
 }
 #general p{
     color: white;
-    font-size: x-large;
+    font-size: 1.77vw;
 }
 #general{
-    padding: 20px;
-    padding-left: 470px;
+    padding: 1.475vw;
+    padding-left: 34.6625vw;
     
 }
 .names{
     text-decoration: none;
     color: #222;
-    font-size: x-large;
-    margin-top: 30px;
-    padding-left: 10px;
+    font-size: 1.77vw;
+    margin-top: 2.2125vw;
+    padding-left: 0.7375vw;
 }
 .names:hover{
     filter: brightness(11300%)
 }
 .popup{
-    font-size: x-large;
+    font-size: 1.77vw;
     color: white;
     position: absolute;
-    width: 355px;
+    width: 26.18125;
     background-color: #111;
     text-align: center;
-    height: 60px;
-    bottom: -260px;
+    height: 4.425vw;
+    bottom: -19.175vw;
     opacity: 0.9;
-    margin-left: 7.5px;
+    margin-left: 7.0.553125vw;
     font-family: sans-serif;
     filter: brightness(150%)
 }
 #popupDrillPress{
     position: absolute;
-    bottom: -1300px;
+    bottom: -95.875vw;
 }
 #oscillating_Spindle_Sanders_Picture{
     width: 93%;
-    margin-top: 140px;
+    margin-top: 10.325vw;
     cursor: pointer;
     transition: filter 0.5s;
 
@@ -184,17 +187,17 @@ ul{
     filter: brightness(150%);
 }
 #popupOscillatingSpindleSander{
-    bottom: -1300px;
-    margin-left: 50px;
+    bottom: -95.875vw;
+    margin-left: 3.6875vw;
 }
 #OSS{
     width:85%;
     color: white;
-    padding: 20px;
-    font-size: large;
+    padding: 1.475vw;
+    font-size: 1.3275vw;
 }
 #mitre_Saw_Picture{
-    margin-top: 100px;
+    margin-top: 7.375vw;
     cursor: pointer;
     transition: filter 0.5s;
 }
@@ -202,29 +205,29 @@ ul{
     filter: brightness(150%);
 }
 #popupMitreSaw{
-    bottom: -2150px;
-    margin-left: 30px;
+    bottom: -158.5625vw;
+    margin-left: 2.2125vw;
 }
 #MitreSaw{
     color: white;
-    font-size: large;
-    padding: 20px;
+    font-size: 1.3275vw;
+    padding: 1.475vw;
     width: 45%;
 }
 #hr2{
-    border-top: 6px solid silver;
+    border-top: 0.4425vw solid silver;
     position: absolute;
-    top: 2450px;
+    top: 180.6875vw;
     width: 98.69%
 }
 #popupTableSaw{
-    bottom: -2150px;
+    bottom: -158.5625vw;
 }
 #table_Saw_picture{
-    width: 550px;
+    width: 40.5625vw;
     position: absolute;
-    top: 2600px;
-    left: 750px;
+    top: 191.75vw;
+    left: 55.3125vw;
     cursor: pointer;
     transition: filter 0.5s;
 }
@@ -233,38 +236,50 @@ ul{
 }
 #TableSaw{
     color: white;
-    font-size: large;
-    padding: 20px;
+    font-size: 1.3275vw;
+    padding: 1.475vw;
     width: 90%;
-    margin-top: 410px;
-    margin-left: -30px;
+    margin-top: 30.2375vw;
+    margin-left: -2.2125vw;
 }
 #router_Picture{
     width: 55%;
-    padding: 20px;
+    padding: 1.475vw;
     cursor: pointer;
     transition: filter 0.5s;
 
 }
 #popupRouter{
-    bottom: -3200px;
-    left: 50px;
+    bottom: -236vw;
+    left: 3.6875vw;
 }
 #router_Picture:hover{
     filter: brightness(150%);
 }
 #router{
-    margin-top: 200px;;
+    margin-top: 14.75vw;
 }
 #hr3{
-    border-top: 6px solid silver;
+    border-top: 0.4425vw solid silver;
     position: absolute;
-    top: 3500px;
+    top: 258.125vw;
     width: 98.69%
 }
 #Router{
     color: white;
-    font-size: large;
-    padding: 20px;
+    font-size: 1.3275vw;
+    padding: 1.475vw;
     width: 45%;
+}
+#biggerDevice{
+    display: none;
+}
+@media only screen and (max-width: 837px){
+    #aaa{
+        display: none;
+    }
+    #biggerDevice{
+        display: block;
+        color: black;
+    }
 }

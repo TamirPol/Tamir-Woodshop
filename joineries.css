@@ -1,7 +1,7 @@
 #menu{
     background-color: black;
     padding: 0.885vw;
-    width: 61vw;
+    width: 80vw;
     float: right;
 }
 a{
@@ -62,6 +62,10 @@ a:hover{
 }
 span{
     padding-left: 2.2125vw;
+}
+a:hover{
+    color: white;
+    filter: brightness(160%);
 }
 #biggerDevice{
     display: none;
