@@ -30,12 +30,12 @@
             SketchUp is a 3D modeling computer program for a wide range of drawing applications such as architectural, interior design, and landscape architecture, but can also be used for many more applications.    This is how my design looks on SketchUp.<span class="small"><a href="https://edu.sketchup.com/app/">(SketchUp site) </a>
         </span>
         <p class="smallPic" id="small">
-            <img id="image" src="PictureJoints (1).png" width="600px" height="450px">
+            <img id="image" src="PictureJoints (0).png" width="600px" height="450px">
                <button class="button" id="previous" onclick="previousPicture(); showPicture();">&#60;</button>
                <button class="button" id="next" onclick="nextPicture(); showPicture()">&#62;</button>
                <img src="full.png" id="full" onclick="change()">
            </p>
-           <p id="big"><img id="imageBig" src="PictureJoints (1).png">
+           <p id="big"><img id="imageBig" src="PictureJoints (0).png">
                <button class="buttonBig" id="previousBig" onclick="previousPicture(); showPicture();">&#60;</button>
                <button class="buttonBig" id="nextBig" onclick="nextPicture(); showPicture()">&#62;</button>
                <img src="full.png" id="fullBig" onclick="change()">
@@ -65,12 +65,12 @@
             })
         }
     }
-    let i = 1;{
+    let i = 0;{
 
     }
         function previousPicture(){
             i--
-            if (i < 1){
+            if (i < 0){
                 i = 12
             }
         }
@@ -108,7 +108,7 @@
         function nextPicture(){
             i++;
             if (i > 12){
-                i = 1
+                i = 0
             }
         }
     </script>
